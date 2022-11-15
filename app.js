@@ -6,6 +6,8 @@ var methodOverride = require('method-override');
 var helmet = require('helmet');
 var hpp = require('hpp');
 
+var fileUpload = require('express-fileupload');
+
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
@@ -37,6 +39,10 @@ app.use(methodOverride(function (req, res) {
     }
 }))
 
+app.use(fileUpload({
+    createParentPath: true
+}));
+
 app.use('/', indexRouter);
 
 // error handler
@@ -46,5 +52,8 @@ app.use(function(err, req, res, next) {
     }
     return res.render('error');
 });
+
+var db = require('./models');
+db.sequelize.sync({ force: true });
 
 module.exports = app;

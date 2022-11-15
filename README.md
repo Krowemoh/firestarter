@@ -13,6 +13,8 @@ I install the following packages for the project:
     - helmet - adds secure headers in production
     - hpp - stops queries from being arrays
     - method-override - adds support for put, patch and delete
+    
+I have changed the <% %> delimiters in ejs to <? ?>.
 
 
 

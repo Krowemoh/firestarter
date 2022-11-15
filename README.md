@@ -26,3 +26,16 @@ I changed the `<% %>` delimiters in ejs to `\<? ?>`.
 This project has a working register and login system. 
 
 I also have a sample nginx configuration in this folder.
+
+```
+cp sample-nginx.conf /etc/nginx/sites-available/project-name.conf
+ln -s /etc/nginx/sites-available/project-name.conf /etc/nginx/sites-enabled/
+service nginx restart
+```
+
+Once the project is installed and nginx is configured. You can start developing.
+
+```
+npm run start-dev
+```
+

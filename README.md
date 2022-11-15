@@ -1,6 +1,8 @@
 # Firestarter
 
-This is an express project starter. This is specifically for me :)
+Firestarter is my github repo that sets up an express project according to my express cheatsheet. Hopefully it's actually useful as building it out was procrastination as I didn't want to start the real project I have in mind for it.
+
+https://nivethan.dev/devlog/express-cheatsheet.html
 
 This application uses the following global packages:
 

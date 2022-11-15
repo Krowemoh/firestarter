@@ -24,3 +24,5 @@ I install the following packages for the project:
 I changed the `<% %>` delimiters in ejs to `\<? ?>`.
 
 This project has a working register and login system. 
+
+I also have a sample nginx configuration in this folder.

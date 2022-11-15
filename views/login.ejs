@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <?- include('meta'); ?>
+    </head>
+    <body>
+        <main>
+            <form method="POST" action="/login">
+                <div class="mb-4">
+                    <label for="username" class="mb-2">Username</label>
+                    <input type="text" name="username">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="mb-2">Password</label>
+                    <input type="password" name="password">
+                </div>
+                <button type="submit">Log In</button>
+            </form>
+        </main>
+        <?- include('footer'); ?>
+        </div>
+    </body>
+</html>

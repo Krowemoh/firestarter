@@ -5,9 +5,17 @@
     </head>
     <body>
         <?- include('header'); ?>
-
         <main>
-            <h1>Hello, World!</h1>
+            <? if (session.loggedIn) { ?>
+                <a href="/logout">logout</a>
+                <h1>Hello, <?=session.username?>!</h1>
+
+            <? } else { ?>
+                <a href="/login">login</a>
+                <a href="/register">register</a>
+                <a href="/admin">admin</a>
+                <h1>Hello, World!</h1>
+            <? } ?>
         </main>
 
         <?- include('footer'); ?>

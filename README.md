@@ -9,8 +9,12 @@ This application uses the following global packages:
 
 I install the following packages for the project:
 
+    - bcrypt - library for password hashing
+    - better-sqlite3 - added for sessions backend
+    - better-sqlite3-session-store - sessions backend
     - dotenv - environment variables
     - express-fileupload - adds support for file uploads
+    - express-session - adds support for sessions
     - helmet - adds secure headers in production
     - hpp - stops queries from being arrays
     - method-override - adds support for put, patch and delete

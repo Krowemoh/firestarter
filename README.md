@@ -21,7 +21,6 @@ I install the following packages for the project:
     - sequelize - adds an orm
     - sqlite3 - adds a database
 
-I have changed the `<% %>` delimiters in ejs to `\<? ?>`.
+I changed the `<% %>` delimiters in ejs to `\<? ?>`.
 
-
-
+This project has a working register and login system. 

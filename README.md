@@ -3,6 +3,7 @@
 ## Quick Start
 ```
 git clone https://github.com/Krowemoh/firestarter.git project-name
+rm -rf .git
 npm rebuild sqlite3 --build-from-source
 npm run start-dev
 ```

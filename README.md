@@ -1,5 +1,14 @@
 # Firestarter
 
+## Quick Start
+```
+git clone https://github.com/Krowemoh/firestarter.git project-name
+mkdir  db
+npm rebuild sqlite3 --build-from-source
+```
+
+## What is this
+
 Firestarter is my github repo that sets up an express project according to my express cheatsheet. Hopefully it's actually useful as building it out was procrastination as I didn't want to start the real project I have in mind for it.
 
 https://nivethan.dev/devlog/express-cheatsheet.html

@@ -7,6 +7,16 @@ npm rebuild sqlite3 --build-from-source
 npm run start-dev
 ```
 
+Implemented endpoints
+
+```
+/register - GET, POST
+/login - GET, POST
+/logout - GET
+/admin - GET
+/ - GET
+```
+
 ## What is this project?
 
 Firestarter is my github repo that sets up an express project according to my express cheatsheet. Hopefully it's actually useful as building it out was procrastination as I didn't want to start the real project I have in mind for it.

@@ -3,11 +3,11 @@
 ## Quick Start
 ```
 git clone https://github.com/Krowemoh/firestarter.git project-name
-mkdir  db
 npm rebuild sqlite3 --build-from-source
+npm run start-dev
 ```
 
-## What is this
+## What is this project?
 
 Firestarter is my github repo that sets up an express project according to my express cheatsheet. Hopefully it's actually useful as building it out was procrastination as I didn't want to start the real project I have in mind for it.
 
@@ -45,8 +45,3 @@ service nginx restart
 ```
 
 Once the project is installed and nginx is configured. You can start developing.
-
-```
-npm run start-dev
-```
-
